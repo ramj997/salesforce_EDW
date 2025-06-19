@@ -1,0 +1,15 @@
+
+version: 2
+
+
+sources:
+  - name: landing
+    database: PBTDEMO01
+    schema: landing
+    tables:
+      - name: account
+
+models:
+  - name: stg_account
+    # description: "Staging model for the account table"
+    
